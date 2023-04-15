@@ -1,0 +1,69 @@
+@media (max-width: 660px) {
+    #home {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 100%;
+        margin:0.2rem;
+        justify-items:center;
+    }
+
+    .description {
+        width:17rem;
+    }
+
+    .description > h1 {
+        font-size:36px;
+    }
+
+    .description > p {
+        width: 16rem;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .description > h4 {
+        margin:2rem 0 2rem;
+    }
+
+    .preview-image {
+        width:20rem;
+    }
+
+    .credits {
+        position: absolute;
+        left: 2rem;
+        top: 12rem;
+        width: 15rem;
+        height: 8rem;
+    }
+
+    .profile {
+        padding: 0 0 0.8rem 0.5rem;
+    }
+
+    .profile > img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .profile-description {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .profile-description > h4 {
+        font-size: 12px;
+        margin: 0.4rem 0 0.3rem 0;
+    }
+    
+    .profile-description > h5 {
+        font-size: 10px;
+        margin:0;
+    }
+
+    .testimonial-callout {
+        font-weight: 700;
+        font-size:18px;
+        width:12rem;
+        padding-left: 0.5rem;
+    }
+}

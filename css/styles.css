@@ -1,0 +1,166 @@
+/* Body */
+body {
+    background-color: #111111;
+    color:white;
+}
+/* Header */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid white;
+    padding: 0.4rem 0.3rem 0.3rem 0.3rem;
+    font-size: 16px;
+    width: 6.8rem;
+    height: 1.5rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 200;
+    margin: 2.5rem 0 0 3.5rem;
+}
+
+.title > p {
+    margin: 0;
+}
+
+.navbar {
+    margin-top: 2.4rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: end;
+    flex-direction: row;
+    width: 50rem;
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+}
+
+/* Home Page Grid */
+main {
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: inherit;
+}
+
+#home {
+    margin:5rem;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    position: relative;
+    width: inherit;
+}
+
+.description {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    padding-right: 3rem;
+}
+
+.description > h1 {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.description > p {
+    width: 23rem;
+    font-size:400;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+.description > h4 {
+    height: 30;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5rem;
+    position:relative;
+}
+
+h4 > span {
+    position: absolute;
+    top: 0.1rem;
+    left: 7.3rem;
+}
+
+.preview-image {
+    width: inherit;
+    position: relative;
+}
+
+.room-img {
+    width: 100%;
+    max-width: 53rem;
+}
+
+/* Credits */
+.credits {
+    position: absolute;
+    padding: 10px;
+    left: 40%;
+    top: 85%;
+    z-index:1;
+    width: 50%;
+    height: 30%;
+    background-color: #111111;
+    color: white;
+    box-shadow: -0.5px 2px 7px black;
+}
+
+.profile {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    padding-left:1.5rem;
+}
+
+.profile-description {
+    margin-left: 1rem;
+}
+
+.profile-description > h4 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0.8rem 0 0.7rem 0;
+}
+
+.profile-description > h5 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color:#828282;
+    margin-top:0;
+}
+
+.profile-pic {
+    border-radius: 40px;
+}
+
+.testimonial-callout {
+    font-weight: 700;
+    font-size:24px;
+    width: 18rem;
+    padding-left: 1.5rem;
+    margin-top: 1.3rem;
+    font-family: 'Lora', serif;
+}
+
+/* Footer */
+footer {
+    margin-top: 10rem;;
+    display:flex;
+    justify-content: center;
+}
